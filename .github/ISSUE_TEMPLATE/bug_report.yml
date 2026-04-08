@@ -1,0 +1,24 @@
+name: Bug report
+description: Reportar um problema no sistema
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição do problema
+      description: O que aconteceu?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
